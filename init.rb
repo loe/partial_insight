@@ -1,0 +1,1 @@
+ActionView::TemplateHandlers::ERB.send(:include, PartialInsight)

@@ -1,0 +1,11 @@
+PartialInsight
+==============
+
+Injects the filenames ERB templates as they are rendered.
+In Rails 2.3 you will need to comment out line 211 of action_view/template.rb.
+
+def load!
+ #freeze
+end
+
+Copyright (c) 2009 W. Andrew Loe III <andrew@andrewloe.com>, released under the MIT license
